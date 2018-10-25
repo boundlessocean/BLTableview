@@ -10,9 +10,9 @@
 #endif
 #endif
 
+#import "BLTableView.h"
 #import "BLTableView+EmptyDataSource.h"
 #import "BLTableView+Refresh.h"
-#import "BLTableView.h"
 
 FOUNDATION_EXPORT double BLTableViewVersionNumber;
 FOUNDATION_EXPORT const unsigned char BLTableViewVersionString[];

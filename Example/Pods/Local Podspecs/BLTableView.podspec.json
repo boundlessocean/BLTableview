@@ -1,9 +1,9 @@
 {
   "name": "BLTableView",
-  "version": "0.1.1",
-  "summary": "A short description of BLTableView.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/fuhaiyang/BLTableView",
+  "version": "1.0.0",
+  "summary": "BLTableView.",
+  "description": "A short description of BLTableView",
+  "homepage": "https://github.com/boundlessocean/BLTableView",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,22 +12,34 @@
     "fuhaiyang": "fuhaiyang@xycentury.com"
   },
   "source": {
-    "git": "https://github.com/fuhaiyang/BLTableView.git",
-    "tag": "0.1.1"
+    "git": "https://github.com/boundlessocean/BLTableview.git",
+    "tag": "1.0.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "BLTableView/Classes/**/*",
-  "dependencies": {
-    "AFNetworking": [
-      "~> 2.3"
-    ],
-    "MJRefresh": [
+  "subspecs": [
+    {
+      "name": "Base",
+      "source_files": "BLTableView/Classes/Base/**/*"
+    },
+    {
+      "name": "EmptyDataSet",
+      "source_files": "BLTableView/Classes/EmptyDataSet/**/*",
+      "dependencies": {
+        "DZNEmptyDataSet": [
 
-    ],
-    "DZNEmptyDataSet": [
+        ]
+      }
+    },
+    {
+      "name": "Refresh",
+      "source_files": "BLTableView/Classes/Refresh/**/*",
+      "dependencies": {
+        "MJRefresh": [
 
-    ]
-  }
+        ]
+      }
+    }
+  ]
 }
