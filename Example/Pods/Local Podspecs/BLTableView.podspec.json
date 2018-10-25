@@ -1,0 +1,33 @@
+{
+  "name": "BLTableView",
+  "version": "0.1.1",
+  "summary": "A short description of BLTableView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/fuhaiyang/BLTableView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "fuhaiyang": "fuhaiyang@xycentury.com"
+  },
+  "source": {
+    "git": "https://github.com/fuhaiyang/BLTableView.git",
+    "tag": "0.1.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BLTableView/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.3"
+    ],
+    "MJRefresh": [
+
+    ],
+    "DZNEmptyDataSet": [
+
+    ]
+  }
+}
