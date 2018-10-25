@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
 A short description of BLTableView
                        DESC
 
-  s.homepage         = 'https://github.com/boundlessocean/BLTableView'
+  s.homepage         = 'https://github.com/boundlessocean/BLTableview'
 
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'fuhaiyang' => 'fuhaiyang@xycentury.com' }
@@ -19,17 +19,18 @@ A short description of BLTableView
 
 
     s.subspec 'Base' do |b|
-    b.source_files = 'BLTableView/Classes/Base/**/*'
+        b.source_files = 'BLTableView/Classes/Base/**/*'
     end
 
     s.subspec 'EmptyDataSet' do |e|
-    e.source_files = 'BLTableView/Classes/EmptyDataSet/**/*'
-    e.dependency 'DZNEmptyDataSet'
+        e.source_files = 'BLTableView/Classes/EmptyDataSet/**/*'
+            e.dependency 'DZNEmptyDataSet'
     end
 
     s.subspec 'Refresh' do |r|
-    r.source_files = 'BLTableView/Classes/Refresh/**/*'
-    r.dependency 'MJRefresh'
+        r.source_files = 'BLTableView/Classes/Refresh/**/*'
+        r.dependency 'MJRefresh'
     end
 
+    s.frameworks = 'UIKit'
 end

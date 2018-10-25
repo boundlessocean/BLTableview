@@ -6,6 +6,7 @@
 //
 
 #import "BLTableView+Refresh.h"
+#import "MJRefresh.h"
 #import <objc/runtime.h>
 static char pageIndexKey;
 static char pageIndexKeyI;
