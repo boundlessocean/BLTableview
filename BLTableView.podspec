@@ -24,12 +24,14 @@ A short description of BLTableView
 
     s.subspec 'EmptyDataSet' do |e|
         e.source_files = 'BLTableView/Classes/EmptyDataSet/**/*'
-            e.dependency 'DZNEmptyDataSet'
+        e.dependency 'DZNEmptyDataSet'
+        e.dependency 'BLTableView/Base'
     end
 
     s.subspec 'Refresh' do |r|
         r.source_files = 'BLTableView/Classes/Refresh/**/*'
         r.dependency 'MJRefresh'
+        r.dependency 'BLTableView/Base'
     end
 
     s.frameworks = 'UIKit'
