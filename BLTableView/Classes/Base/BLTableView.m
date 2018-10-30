@@ -25,7 +25,9 @@
 - (instancetype)initWithFrame:(CGRect)frame{
     self = [super initWithFrame:frame];
     if (self) {
-        [self bs_configTable];
+        [self bs_configEmptyTable];
+        [self bs_configRefreshTable];
+        [self p_configTable];
     }
     return self;
 }
@@ -33,7 +35,9 @@
 - (instancetype)initWithFrame:(CGRect)frame style:(UITableViewStyle)style{
     self = [super initWithFrame:frame style:style];
     if (self) {
-        [self bs_configTable];
+        [self bs_configEmptyTable];
+        [self bs_configRefreshTable];
+        [self p_configTable];
     }
     return self;
 }
@@ -41,15 +45,18 @@
 - (instancetype)initWithCoder:(NSCoder *)aDecoder{
     self = [super initWithCoder:aDecoder];
     if (self) {
-        [self bs_configTable];
+        [self bs_configEmptyTable];
+        [self bs_configRefreshTable];
+        [self p_configTable];
     }
     return self;
 }
 
-
+- (void)bs_configRefreshTable{}
+- (void)bs_configEmptyTable{}
 
 #pragma mark - - Private
-- (void)bs_configTable{
+- (void)p_configTable{
     self.dataSource = self;
     self.delegate = self;
     self.separatorStyle = UITableViewCellSeparatorStyleNone;

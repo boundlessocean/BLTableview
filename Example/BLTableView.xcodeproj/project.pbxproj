@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		0672602A023B487CD71A3771 /* Pods_BLTableView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BLTableView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1DE0D368B633E9924C2E431A /* BLTableView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BLTableView.podspec; path = ../BLTableView.podspec; sourceTree = "<group>"; };
+		1DE0D368B633E9924C2E431A /* BLTableView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BLTableView.podspec; path = ../BLTableView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		404673FD35CA0107D8AE3F07 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4B7BF7B0A59851AF0272D3B4 /* Pods-BLTableView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLTableView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BLTableView_Example/Pods-BLTableView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		51A52B7A0A76A26F50EECD33 /* Pods-BLTableView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLTableView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BLTableView_Tests/Pods-BLTableView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
