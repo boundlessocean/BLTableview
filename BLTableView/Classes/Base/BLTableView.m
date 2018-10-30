@@ -64,6 +64,9 @@
     self.backgroundColor = [UIColor clearColor];
     _bs_registeType = MTTableViewRegisteTypeNib;
     _bs_isFristLoad = YES;
+    if (@available(iOS 11.0, *)) {
+        self.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
+    }
 }
 
 
